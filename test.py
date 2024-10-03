@@ -136,4 +136,5 @@ def chat():
 if __name__ == "__main__":
     # Scrape the mental health websites and save to file
     scrape_mental_health_websites()
-    app.run(host="0.0.0.0", port=5001)
+    app.run()
+
